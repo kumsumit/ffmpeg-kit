@@ -20,11 +20,11 @@ apply plugin: 'com.android.library'
 
 android {
     namespace 'com.arthenica.ffmpegkit.flutter'
-
+    ndkVersion "26.0.10792818"
     compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 24
+        minSdkVersion 16
         targetSdkVersion 33
         versionCode 603
         versionName "6.0.3"
@@ -46,5 +46,5 @@ android {
 
 dependencies {
     implementation 'androidx.annotation:annotation:1.5.0'
-    implementation 'com.arthenica:ffmpeg-kit-https:6.0-2'
+    implementation 'com.arthenica:ffmpeg-kit-https:6.0-2-LTS'
 }
